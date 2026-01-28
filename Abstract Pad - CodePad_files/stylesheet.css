@@ -1,0 +1,124 @@
+/* opening css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    /* You can also target the html element for full coverage in all cases */
+    /* html { background-color: lightblue; } */ 
+  }
+
+#main-paragraph{
+    display: inline-block;
+    font-size:50px;
+    font-family:"Helvetica";
+    color: aliceblue;
+    text-align: top;
+    margin: 1%;
+    }
+
+.subhead{
+    display: inline-block;
+    font-size:20px;
+    font-family:"Helvetica";
+    width: 1400px;
+    height: 25px;
+    margin:10%;
+}
+
+.image-row {
+    display: flex;
+    align-items: stretch; /* forces same height */
+    }
+
+    .hero-img {
+        height: 413px; /* match main-box height visually */
+        width: auto; /* preserves aspect ratio */
+        object-fit: cover;
+        }
+
+.ortbo {
+    display: flex;
+    align-items: stretch; /* forces same height */
+
+   }            
+    .bond {
+        height: 413px; /* match main-box height visually */
+        width: auto; /* preserves aspect ratio */
+        object-fit: cover;
+                }    
+
+.list{
+    font-family:"Helvetica";
+    padding: 10%;
+}
+
+.border{
+    border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+
+}
+
+.space{
+    display: flex;
+    align-items: stretch; /* forces same height */
+
+   }            
+    .office {
+        height: 690px; /* match main-box height visually */
+        width: auto; /* preserves aspect ratio */
+        object-fit: cover;
+}
+
+
+.main-box{
+    display: inline-block;
+    background-color: black;
+    width: 100vw;
+    height: 94px;
+}
+
+.color-box {
+    align-items: center;
+    width: 200px;
+    height: 1000px;
+    background: linear-gradient(135deg,
+    #015f0c,lightblue);
+    }
+
+    .imagerow2{
+            display: flex;
+            align-items: center; /* vertical alignment */
+            gap: 15px; /* space between image and box */
+    }
+
+    .color-box2{
+        width: 200px;
+        height: 1117px;
+        background: linear-gradient(lightblue,darkblue);
+    }
+
+.secret-message{
+    float: right;
+    margin: 50px;
+    font-family: "Helvetica";
+    color: rgb(162, 210, 226);
+    transition: color 0.3s ease;
+}
+
+.secret-message:hover {
+    color: blue;
+    }
+
+.united{
+    display: flex;
+    align-items: flex-start; /* 🔑 top alignment */
+    gap: 15px;
+    }
+
+a {
+    color:blue
+}
+
+    
